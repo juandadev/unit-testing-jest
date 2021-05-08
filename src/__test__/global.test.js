@@ -33,3 +33,35 @@ test("Testing a callback", () => {
     expect(str).toBe("dlroW olleH");
   });
 });
+
+// Test for Promises
+const reverseString2 = (str) => {
+  return new Promise((resolve, reject) => {
+    if (!str) {
+      reject(Error("Error: there's no text"));
+    }
+
+    resolve(str.split("").reverse().join(""));
+  });
+};
+
+test("Testing a promise", () => {
+  return reverseString2(text).then((string) => {
+    expect(string).toBe("dlroW olleH");
+  });
+});
+
+// Test for Async / Await
+test("Testing Async / Await", async () => {
+  const string = await reverseString2(text);
+
+  expect(string).toBe("dlroW olleH");
+});
+
+// Runs code after tests
+afterEach(() => console.log("After each test"));
+afterAll(() => console.log("After all tests"));
+
+// Same way before tests
+beforeEach(() => console.log("Before each test"));
+beforeAll(() => console.log("Before all tests"));
