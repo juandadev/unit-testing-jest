@@ -58,10 +58,10 @@ test("Testing Async / Await", async () => {
   expect(string).toBe("dlroW olleH");
 });
 
-// Runs code after tests
-afterEach(() => console.log("After each test"));
-afterAll(() => console.log("After all tests"));
+// // Runs code after tests
+// afterEach(() => console.log("After each test"));
+// afterAll(() => console.log("After all tests"));
 
-// Same way before tests
-beforeEach(() => console.log("Before each test"));
-beforeAll(() => console.log("Before all tests"));
+// // Same way before tests
+// beforeEach(() => console.log("Before each test"));
+// beforeAll(() => console.log("Before all tests"));

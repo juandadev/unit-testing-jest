@@ -4,7 +4,8 @@
   "description": "In this project I built a simple store app in react, but the purpose is trying for first time unit testing with Jest",
   "main": "src/index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "repository": {
     "type": "git",
