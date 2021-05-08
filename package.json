@@ -1,0 +1,27 @@
+{
+  "name": "unit-testing-jest",
+  "version": "1.0.0",
+  "description": "In this project I built a simple store app in react, but the purpose is trying for first time unit testing with Jest",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juandadev/unit-testing-jest.git"
+  },
+  "keywords": [
+    "testing",
+    "jest",
+    "react"
+  ],
+  "author": "Juan Daniel Martínez Navarro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juandadev/unit-testing-jest/issues"
+  },
+  "homepage": "https://github.com/juandadev/unit-testing-jest#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
