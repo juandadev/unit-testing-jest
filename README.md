@@ -1,10 +1,25 @@
 # Unit Testing with Jest 🚀
 
+![Travis (.org)](https://img.shields.io/travis/juandadev/unit-testing-jest)
+
 In this project I built a simple store app in react, but the purpose is trying for first time unit testing with [Jest](https://jestjs.io/)
 
-<!-- Image preview -->
+![Project preview](https://imgur.com/GxiAviX.png)
 
 ## Setup
+
+The main focus of this project is to run tests with Jest for a React application:
+
+```bash
+# Clone this repository
+$ git clone https://github.com/juandadev/unit-testing-jest.git
+
+# Install dependencies
+$ npm install
+
+# Run the test command
+$ npm run test
+```
 
 ## Support
 
