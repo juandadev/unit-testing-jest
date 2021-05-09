@@ -18,8 +18,13 @@ const Product = ({ product, handleAddToCart }) => (
 );
 
 Product.propTypes = {
-  product: PropTypes.object.isRequired,
-  handleAddToCart: PropTypes.func.isRequired,
+  product: PropTypes.object,
+  handleAddToCart: PropTypes.func,
+};
+
+Product.defaultProps = {
+  product: {},
+  handleAddToCart: () => {},
 };
 
 export default Product;
