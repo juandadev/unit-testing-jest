@@ -30,5 +30,6 @@ module.exports = {
     describe: 'readonly',
     test: 'readonly',
     expect: 'readonly',
+    jest: 'readonly',
   },
 };
