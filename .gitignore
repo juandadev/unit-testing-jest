@@ -1,6 +1,6 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,node,react
-# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,node,react
+# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,react,node
+# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,react,node
 
 ### Node ###
 # Logs
@@ -154,4 +154,4 @@ sketch
 .history
 .ionide
 
-# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,node,react
+# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,react,node
