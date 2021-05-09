@@ -26,4 +26,9 @@ module.exports = {
     'react/jsx-props-no-spreading': ['off'],
     'import/no-extraneous-dependencies': ['off'],
   },
+  globals: {
+    describe: 'readonly',
+    test: 'readonly',
+    expect: 'readonly',
+  },
 };
